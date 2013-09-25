@@ -38,11 +38,29 @@ var smileys = [
     [':plant_thirsty:','http://mush.vg/img/icons/ui/plant_thirsty.png'],
     [':plant_dry:','http://mush.vg/img/icons/ui/plant_dry.png'],
     [':plant_diseased:','http://mush.vg/img/icons/ui/plant_diseased.png'],
-    [':bin:','http://mush.vg/img/icons/ui/bin.png'],
-    [':next:','http://mush.vg/img/icons/ui/pageright.png'],
-    [':ship_triumph:','http://mush.vg/img/icons/ui/daedalus_triumph.png']
+    //[':bin:','http://mush.vg/img/icons/ui/bin.png'],
+    //[':next:','http://mush.vg/img/icons/ui/pageright.png'],
+    //[':ship_triumph:','http://mush.vg/img/icons/ui/daedalus_triumph.png']
     //[':exp:','http://www.twinpedia.com/_media/mush/point/pa_exp.png'],
-    //['::',''],
+    [':pa_comp:','http://mush.vg/img/icons/ui/pa_comp.png'],
+    [':pa_cook:','http://mush.vg/img/icons/ui/pa_cook.png'],
+    [':pa_core:','http://mush.vg/img/icons/ui/pa_core.png'],
+    [':pa_eng:','http://mush.vg/img/icons/ui/pa_eng.png'],
+    [':pa_garden:','http://mush.vg/img/icons/ui/pa_garden.png'],
+    [':pa_pilgred:','http://mush.vg/img/icons/ui/pa_pilgred.png'],
+    [':pa_shoot:','http://mush.vg/img/icons/ui/pa_shoot.png'],
+    [':laid:','http://mush.vg/img/icons/ui/laid.png'],
+    [':mastered:','http://mush.vg/img/icons/ui/mastered.png'],
+    [':mush:','http://mush.vg/img/icons/ui/mush.png'],
+    [':stink:','http://mush.vg/img/icons/ui/stink.png'],
+    [':fuel:','http://mush.vg/img/icons/ui/fuel.png'],
+    [':o2:','http://mush.vg/img/icons/ui/o2.png'],
+    [':more:','http://mush.vg/img/icons/ui/more.png'],
+    [':less:','http://mush.vg/img/icons/ui/less.png'],
+    [':chut:','http://mush.vg/img/icons/ui/discrete.png'],
+    [':talk:','http://mush.vg/img/icons/ui/talk.gif'],
+    [':talky:','http://mush.vg/img/icons/ui/talky.png'],
+    //['::','http://mush.vg/img/icons/ui/'],
 ];
 var nbSmileys = smileys.length;
 var smileysDiv;
