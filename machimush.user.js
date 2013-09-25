@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       MachiMush
-// @version    0.2
+// @version    0.3
 // @description  Améliorations pour le jeu Mush
 // @match      http://mush.vg/*
 // @match      http://mush.vg/#
@@ -12,7 +12,7 @@ var $ = unsafeWindow.jQuery;
 var Main = unsafeWindow.Main;
 
 var CSS = ""
-+".mm_smileys { position:absolute; top:300px; right:0px; border:1px solid #FFFFFF; width:22px; padding:4px; text-align:center; background:#c2f3fc; }"
++".mm_smileys { position:absolute; top:300px; right:0px; border:1px solid #FFFFFF; width:32px; padding:4px; text-align:center; background:#c2f3fc; }"
 +""
 +"";
 
@@ -50,9 +50,9 @@ var smileys = [
     [':pa_pilgred:','http://mush.vg/img/icons/ui/pa_pilgred.png'],
     [':pa_shoot:','http://mush.vg/img/icons/ui/pa_shoot.png'],
     [':laid:','http://mush.vg/img/icons/ui/laid.png'],
-    [':mastered:','http://mush.vg/img/icons/ui/mastered.png'],
+    [':mastered:','http://mush.vg/img/icons/ui/status/mastered.png'],
     [':mush:','http://mush.vg/img/icons/ui/mush.png'],
-    [':stink:','http://mush.vg/img/icons/ui/stink.png'],
+    [':stink:','http://mush.vg/img/icons/ui/status/stinky.png'],
     [':fuel:','http://mush.vg/img/icons/ui/fuel.png'],
     [':o2:','http://mush.vg/img/icons/ui/o2.png'],
     [':more:','http://mush.vg/img/icons/ui/more.png'],
