@@ -12,7 +12,7 @@ var $ = unsafeWindow.jQuery;
 var Main = unsafeWindow.Main;
 
 var CSS = ""
-+".mm_smileys { position:absolute; top:300px; right:0px; border:1px solid #FFFFFF; width:32px; padding:4px; text-align:center; background:#c2f3fc; }"
++".mm_smileys { position:absolute; top:300px; right:0px; border:1px solid #FFFFFF; width:36px; padding:4px; text-align:center; background:#c2f3fc; }"
 +""
 +"";
 
@@ -59,7 +59,7 @@ var smileys = [
     [':less:','http://mush.vg/img/icons/ui/less.png'],
     [':chut:','http://mush.vg/img/icons/ui/discrete.png'],
     [':talk:','http://mush.vg/img/icons/ui/talk.gif'],
-    [':talky:','http://mush.vg/img/icons/ui/talky.png'],
+    [':talky:','http://mush.vg/img/icons/ui/talkie.png'],
     //['::','http://mush.vg/img/icons/ui/'],
 ];
 var nbSmileys = smileys.length;
