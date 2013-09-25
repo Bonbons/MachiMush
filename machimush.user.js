@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       MachiMush
-// @version    0.1
+// @version    0.2
 // @description  Améliorations pour le jeu Mush
 // @match      http://mush.vg/*
 // @match      http://mush.vg/#
