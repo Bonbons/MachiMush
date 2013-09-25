@@ -5,6 +5,7 @@
 // @match      http://mush.vg/*
 // @match      http://mush.vg/#
 // @copyright  2012+, Ma c'hi
+// @updateurl  https://raw.github.com/Machi3000/MachiMush/master/machimush.user.js
 // ==/UserScript==
 // @require http://code.jquery.com/jquery-latest.js
 var $ = unsafeWindow.jQuery;
