@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       MachiMush
-// @version    0.3
+// @version    0.4
 // @description  Améliorations pour le jeu Mush
 // @match      http://mush.vg/*
 // @match      http://mush.vg/#
@@ -60,6 +60,16 @@ var smileys = [
     [':chut:','http://mush.vg/img/icons/ui/discrete.png'],
     [':talk:','http://mush.vg/img/icons/ui/talk.gif'],
     [':talky:','http://mush.vg/img/icons/ui/talkie.png'],
+    [':pmo:','http://mush.vg/img/icons/ui/pmo.png'],
+    [':pills:','http://mush.vg/img/icons/ui/pills.png'],
+    [':dead:','http://mush.vg/img/icons/ui/dead.png'],
+    [':hunter:','http://mush.vg/img/icons/ui/hunter.png'],
+    [':fire:','http://mush.vg/img/icons/ui/fire.png'],
+    [':cat:','http://mush.vg/img/icons/ui/cat.png'],
+    [':time:','http://mush.vg/img/icons/ui/time.png'],
+    [':tip:','http://mush.vg/img/icons/ui/tip.png'],
+    [':triumph:','http://mush.vg/img/icons/ui/triumph.png'],
+    [':pa_heal:','http://mush.vg/img/icons/ui/pa_heal.png'],
     //['::','http://mush.vg/img/icons/ui/'],
 ];
 var nbSmileys = smileys.length;
