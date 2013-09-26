@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       MachiMush
-// @version    0.5
+// @version    1.0
 // @description  Améliorations pour le jeu Mush
 // @match      http://mush.vg/*
 // @match      http://mush.vg/#
@@ -161,23 +161,25 @@ function addCSS() {
 
 function mm_smileys_hideAllPages() {
     for(var i=0;i<nbSmileysPages;i++) {
-        $('.mm_smileys_p'+i).hide();
+        $('.mm_smileys_p'+i).slideUp();
         $('.mm_smileys_tab'+i).removeClass('selected');
     }
 }
 function mm_smileys_showPage(page) {
     mm_smileys_hideAllPages();
-    $('.mm_smileys_p'+page).show();
+    $('.mm_smileys_p'+page).slideDown();
     $('.mm_smileys_tab'+page).addClass('selected');
 }
 function mm_smileys_hide() {
-	$('.mm_smileys').hide();
+	$('.mm_smileys').fadeOut();
     mm_smileys_hideAllPages();
 }
 function mm_smileys_show() {
     if($('.mm_smileys:hidden').size()>0) {
-		mm_smileys_showPage(0);
-   		$('.mm_smileys').show();
+		mm_smileys_hideAllPages();
+    	$('.mm_smileys_p0').show();
+    	$('.mm_smileys_tab0').addClass('selected');
+   		$('.mm_smileys').fadeIn();
     }
 }
 
@@ -187,7 +189,7 @@ function init() {
     $('#chat_col textarea').focus(function(){
     	lastUsedTextarea = $(this);
         if(!lastUsedTextarea.attr('data-mm_modified')) {
-       		//lastUsedTextarea.blur(function() { mm_smileys_hide(); });
+       		lastUsedTextarea.blur(function() { mm_smileys_hide(); });
             lastUsedTextarea.attr('data-mm_modified','1');
     	}
         mm_smileys_show();       
